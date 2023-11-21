@@ -248,3 +248,8 @@ a {
     height: 200px;
     background-color: var(--primary-blue);
   }
+  .figures {
+    font-family: Milk-Kids;
+    font-size: 48px;
+    color: #D5E52E;
+  }
