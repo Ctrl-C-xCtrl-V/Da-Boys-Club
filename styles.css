@@ -3,6 +3,73 @@
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: red;
+:root {
+    --primary-blue: #273C4D;
+    --primary-green: #63AD7C;
+    --primary-white: #fff;
+    --primary-red: #C8608E;
+  }
+@font-face {
+    font-family: Bold-Cut;
+    src: url(./Assets/fonts/gobold/Gobold\ CUTS.otf);
+}
+@font-face {
+    font-family: Milk-Kids;
+    src: url(./Assets/fonts/MilkKids-ywqAd.ttf);
+}
+h1{
+    font-family: Bold-Cut;
+}
+a {
+    color: var(--primary-white);
+    text-decoration: none;
+    position: relative;
+  }
+  
+  a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px; /* Adjust the thickness of the underline */
+    background-color: transparent;
+    bottom: -3px;
+    left: 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover::after {
+    background-color: var(--primary-white);
+  }
+.main-container {
+    width: 100%;
+    min-height: 80vh;
+}
+.hero-section {
+    width: 100%;
+    min-height: 300px;
+    background-color: var(--primary-blue);
+}
+.hero-section-navigation{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.logo-text{
+    color: var(--primary-white);
+    font-size: 60px;
+    font-family: Bold-Cut;
+}
+.nav-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: white;
+    list-style: none;
+    font-family: Milk-Kids;
+    font-size: 14px;
 }
