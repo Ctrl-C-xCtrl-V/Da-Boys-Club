@@ -253,3 +253,27 @@ a {
     font-size: 48px;
     color: #D5E52E;
   }
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px) rotate(0.5deg); }
+    50% { transform: translateX(5px) rotate(-0.5deg); }
+    75% { transform: translateX(-5px) rotate(0.5deg); }
+    100% { transform: translateX(0); }
+  }
+
+  .danger-warning {
+    width: 700px;
+    animation: shake 0.5s infinite; /* Adjust the duration as needed */
+  }
+
+  @keyframes scaleAndRotate {
+    0%, 100% {
+      transform: scale(1) rotate(0);
+    }
+    50% {
+      transform: scale(1.1) rotate(5deg);
+    }
+  }
+  .token-img-and-txt img {
+    animation: scaleAndRotate 2s ease-in-out infinite;
+  }
