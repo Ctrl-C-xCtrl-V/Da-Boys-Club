@@ -312,7 +312,7 @@ a:hover::after {
   }
 }
 
-/* The typewriter cursor effect */
+/* The typewriter cursor effect hover */
 @keyframes blink-caret {
   from,
   to {
