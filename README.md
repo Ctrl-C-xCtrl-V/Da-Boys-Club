@@ -1,6 +1,6 @@
 # Da-Boys-Club
 
-<img width="1425" alt="Screen Shot 2023-11-22 at 9 07 19 AM" src="https://github.com/Ctrl-C-xCtrl-V/Da-Boys-Club/assets/80783021/cd00bb63-4a4f-4dd8-924d-5501a5757f07">
+<img width="1425" alt="Screen Shot 2023-11-22 at 9 07 19 AM" src="https://github.com/Ctrl-C-xCtrl-V/Da-Boys-Club/assets/80783021/c196de4d-911c-43ad-8319-630ac6aff927">
 
 Welcome to Da Boy's Club – the ultimate space for the true degens!
 
