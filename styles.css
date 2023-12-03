@@ -163,7 +163,7 @@ a:hover::after {
   ); /* Adjust the scaleX value to control the underline width on hover */
 }
 .slider-config {
-  width: 103%;
+  width: 109%;
   position: relative;
   top: -90px;
 }
