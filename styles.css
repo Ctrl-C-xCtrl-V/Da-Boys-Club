@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
 }
+body {
+  overflow-x: hidden;
+}
 :root {
   --primary-blue: #273c4d;
   --primary-green: #63ad7c;
@@ -123,6 +126,9 @@ a:hover::after {
   color: var(--primary-blue);
   cursor: pointer;
   font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Bold-Cut;
   position: relative;
   overflow: hidden;
@@ -276,9 +282,11 @@ a:hover::after {
   }
 
   .hero-content {
+    width:  100%;
     flex-direction: column;
-    padding-left: 20px;
+    align-items: center;
     gap: 20px;
+    padding-left: 0px;
   }
 
   .hero-text-content {
@@ -291,7 +299,7 @@ a:hover::after {
     gap: 15px;
   }
   .hero-image {
-    width: 200px;
+    width: 80%;
   }
   .logo-text {
     font-size: 16px;
@@ -305,6 +313,28 @@ a:hover::after {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .hero-heading {
+    font-size: 35px;
+  }
+  .hero-text-content {
+    width: 100%;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 30px;
+  }
+  .hero-sub-text {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  .hero-button-container {
+    flex-direction: column;
+    width: 100%;
+    padding-right: 40px;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
 }
 
 
