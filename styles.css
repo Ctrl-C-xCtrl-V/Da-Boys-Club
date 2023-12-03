@@ -161,7 +161,11 @@ a:hover::after {
     2
   ); /* Adjust the scaleX value to control the underline width on hover */
 }
-
+.slider-config {
+  width: 100%;
+  position: relative;
+  top: -90px;
+}
 .explanation-section {
   width: 100%;
   min-height: 300px;
@@ -272,7 +276,6 @@ a:hover::after {
   animation: scaleAndRotate 2s ease-in-out infinite;
 }
 
-
 /* media query */
 /* Media query for smaller screens */
 @media (max-width: 768px) {
@@ -282,7 +285,7 @@ a:hover::after {
   }
 
   .hero-content {
-    width:  100%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 20px;
@@ -332,14 +335,11 @@ a:hover::after {
     padding-right: 40px;
     gap: 15px;
     margin-top: 20px;
+  }
+  .slider-config{
+    top: -3px;
+  }
 }
-
-
-}
-
-
-
-
 
 @keyframes hero-image-animation {
   0% {
