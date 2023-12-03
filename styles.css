@@ -343,6 +343,7 @@ a:hover::after {
     top: 0px;
     padding-left: 10px;
     gap: 10px;
+    min-height: auto;
     padding-right: 10px;
   }
   .explanation-header{
