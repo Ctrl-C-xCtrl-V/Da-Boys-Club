@@ -339,6 +339,19 @@ a:hover::after {
   .slider-config{
     top: -3px;
   }
+  .explanation-section{
+    top: 0px;
+    padding-left: 10px;
+    gap: 10px;
+    padding-right: 10px;
+  }
+  .explanation-header{
+    font-size: 35px;
+  }
+  .explanation-text{
+    font-size: 14px;
+    line-height: 30px;
+  }
 }
 
 @keyframes hero-image-animation {
