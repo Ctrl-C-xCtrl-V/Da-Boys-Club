@@ -49,6 +49,7 @@ a:hover::after {
 }
 .main-container {
   width: 100%;
+  overflow-x: hidden;
   position: relative;
   background-color: var(--primary-green);
 }
@@ -162,7 +163,7 @@ a:hover::after {
   ); /* Adjust the scaleX value to control the underline width on hover */
 }
 .slider-config {
-  width: 100%;
+  width: 103%;
   position: relative;
   top: -90px;
 }
