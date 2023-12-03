@@ -252,6 +252,9 @@ a:hover::after {
   display: flex;
   background-color: var(--primary-blue);
 }
+.mod{
+  top: -105px;
+}
 .makeup-box {
   width: 100%;
   position: absolute;
@@ -281,6 +284,9 @@ a:hover::after {
 .footer-mod {
   justify-content: flex-start;
   gap: 100px;
+}
+.footer-img {
+  width: 300px;
 }
 /* media query */
 /* Media query for smaller screens */
