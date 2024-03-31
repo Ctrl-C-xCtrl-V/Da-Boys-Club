@@ -15,7 +15,7 @@ Da Boy's Club is a community-driven project led by Pepe, the fearless leader of 
 
 ## Getting Started
 
-To get started with Da Boy's Club, follow these simple steps:
+To get started with Da Boy's Club, follow these simple steps.:
 
 1. **Clone the Repository:**
    ```bash
